@@ -14,10 +14,21 @@
 .contato-select,
 .grupo-radio {
 	display: inline-block;
-	width: 50%;
+	width: 49%;
 	vertical-align: top;
 }
 
 .grupo-radio .radio:first-child {
 	margin-top: 0;
+}
+
+footer{
+	background-color: #333;
+	color: #FFF;
+	padding: 1em;
+	margin-top: 10px
+}
+
+footer address:last-child{
+	margin-bottom: 0;
 }
